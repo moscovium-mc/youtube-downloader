@@ -24,7 +24,7 @@
 (function () {
     'use strict';
 
-    // ==================== Common Utilities ====================
+    // Common Utilities 
     const CommonUtils = {
         getSupportedLang: function () {
             const lang = navigator.language || navigator.userLanguage;
@@ -68,7 +68,7 @@
         }
     };
 
-    // ==================== Download HUD (Hover Button for Shorts) ====================
+    // Download HUD (Hover Button for Shorts) 
     const DownloadHud = {
         instances: new Map(),
 
@@ -391,7 +391,7 @@
         }
     };
 
-    // ==================== YouTube Downloader ====================
+    // YouTube Downloader 
     const YouTubeDownloader = {
         downloadVideo: function () {
             const url = "https://www.tool77.com/" + CommonUtils.getSupportedLang() + "/v/downloader?url=" + encodeURIComponent(window.location.href);
