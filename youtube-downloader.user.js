@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        YouTube Video Downloader
+// @name        YouTube Downloader
 // @namespace   YouTubeDownloader_Moscovium
 // @version     1.0.0
 // @author      moscovium-mc
-// @description Extract YouTube video download functionality from All-in-One Video Downloader. Adds download button to YouTube player and supports Shorts videos.
+// @description Extract YouTube video download functionality from Downloader. Adds download button to YouTube player and supports Shorts videos.
 // @license     MIT
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @homepageURL https://github.com/moscovium-mc/youtube-downloader
